@@ -9,10 +9,4 @@ pipeline {
             }
         }
     }
-    post {
-        always {
-            // Deconnexion Docker
-            sh 'docker logout'
-        }
-    }
 }
